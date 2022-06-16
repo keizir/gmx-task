@@ -11,7 +11,8 @@ export const CHAIN_IDS = {
   ROPSTEN: 421611,
 };
 
-export const defaultChainId = process.env.DEVELOPMENT === 'false' ? CHAIN_IDS.MAIN : CHAIN_IDS.ROPSTEN;
+// export const defaultChainId = process.env.DEVELOPMENT === 'false' ? CHAIN_IDS.MAIN : CHAIN_IDS.ROPSTEN;
+export const defaultChainId = CHAIN_IDS.MAIN;
 
 export const supportedChainIds = [defaultChainId];
 
